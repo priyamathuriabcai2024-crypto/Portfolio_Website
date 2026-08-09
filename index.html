@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Priyanshi | AI Engineer Portfolio</title>
+  <meta name="description" content="Priyanshi's Portfolio showcasing AI Engineer, Frontend Development, Java, Python, and Web Development projects with a modern responsive design.">
+  <meta name="theme-color" content="#0f172a">
+  <meta name="robots" content="index, follow">
+  <meta name="author" content="Priyanshi">
+  <meta name="keywords" content="Priyanshi, Portfolio, AI Engineer, Frontend Developer,Python, HTML, CSS, JavaScript">
+
+  <meta property="og:title" content="Priyanshi | AI Engineer Portfolio">
+  <meta property="og:description" content="Modern portfolio showcasing AI Engineer, Frontend Development, Python and Web Development projects.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="preview.png">
+  <link rel="icon" type="image/png" href="favicon.png">
+  <!-- Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <!-- Loader -->
+  <div id="loader">
+    <div class="loader-logo">
+      Priyanshi 
+    </div>
+    <p>Loading Portfolio...</p>
+  </div>
+  <!-- Scroll Progress Bar -->
+  <div id="progressBar"></div>
+  <header>
+     <!-- Floating Particles -->
+    <div class="particles">
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+    <nav>
+      <h2 class="logo">Priyanshi</h2>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#experience">Experience</a></li>
+      </ul>
+      <button id="menuBtn"> 
+        <i class="fa-solid fa-bars"></i>
+      </button>
+    </nav>
+  </header>
+  <main>
+     <!-- Hero Section -->
+    <section class="hero"  id="home">
+      <div class="hero-glow"></div>
+      <div class="hero-content">
+        <p class="greeting">  Hello, I'm</p>
+        <h1>Priyanshi</h1>
+        <h3><span id="typing"></span><span class="cursor">|</span></h3>
+        <p class="status">🟢 Available for Internship</p>
+        <p class="hero-description">
+          I am a BCA (AI & IoT) student passionate about Artificial Intelligence, Machine Learning, Python, and modern web development. I enjoy building intelligent applications and solving real-world problems through technology.
+        </p>
+        <div class="buttons">
+          <a href="resume/Priyanshi_AI_Engineer_Resume.pdf" target="_blank">Download Resume</a>
+          <a href="#contact">Contact Me</a>
+        </div>
+        <!-- Hero Stats -->
+        <div class="hero-stats">
+          <div class="stat">
+            <h2>3+</h2>
+            <p>Projects</p>
+          </div>
+          <div class="stat">
+            <h2>5+</h2>
+            <p>Technologies</p>
+          </div>
+          <div class="stat">
+            <h2>100%</h2>
+            <p>Learning</p>
+          </div>
+
+        </div>
+        <!-- Social Icons -->
+         <div class="social-icons">
+          <a href="https://github.com/PriyanshiMathuria" target="_blank" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+          <a href="https://linkedin.com/in/priyanshi-mathuria-5967a4343" target="_blank" aria-label="linkedin"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="mailto:priyanshimathuria2263@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+        </div>
+      </div>
+      <div class="hero-image">
+        <!-- <div class="hero-ring"></div>
+        <div class="hero-ring ring2"></div> -->
+        <div class="orbit">
+          <span class="dot dot1"></span>
+          <span class="dot dot2"></span>
+        </div>
+        <img src="images/portfolio.png" alt="Priyanshi - AI Engineer Portfolio">
+      </div>
+    </section>
+    <!-- About ME -->
+    <section class="about reveal" id="about">
+      <h2>About Me</h2>
+      <p class="section-subtitle">AI Engineer • Machine Learning Enthusiast • Python Learner</p>
+      <p class="about-description">
+        I'm Priyanshi, a BCA (AI & IoT) student with a strong passion for Artificial Intelligence, Machine Learning, Python, and intelligent software solutions. I enjoy developing modern, responsive web applications while continuously expanding my knowledge of AI technologies and applying my skills to solve real-world problems.
+      </p>
+      <div class="about-highlights">
+        <div class="highlight-card">
+          <div class="highlight-icon">💼</div>
+          <h3>Experience</h3>
+          <p>2 Internships</p>
+        </div>
+        <div class="highlight-card">
+          <div class="highlight-icon">🎓</div>
+          <h3>Education</h3>
+          <p>BCA Student</p>
+        </div>
+        <div class="highlight-card">
+          <div class="highlight-icon">🚀</div>
+          <h3>Projects</h3>
+          <p>2+ Completed</p>
+        </div>
+        <div class="highlight-card">
+          <div class="highlight-icon">📍</div>
+          <h3>Location</h3>
+          <p>India</p>
+        </div>
+      </div>
+      <div class="skills-list">
+        <span>HTML</span>
+        <span>CSS</span>
+        <span>Java</span>
+        <span>Python</span>
+        <span>Git & GitHub</span>
+        <span>MySQL</span>
+      </div>
+    </section>
+    <!--Project Section -->
+    <section class="projects reveal" id="projects">
+      <h2>My Projects</h2>
+      <div class="project-container">
+        <div class="project-card reveal" style="transition-delay:0s;">
+          <div class="card-glow"></div>
+          <div  class="project-image">
+            <img src="images/AI predictive maintenance system.png" alt="Project">
+          </div>
+          <div class="project-content">
+            <h3>AI predictive maintenance system</h3>
+            <div class="tech-stack">
+              <span>Streamlit</span>
+              <span>Python</span>
+              <span>CSS</span>
+              <span>FastAPI</span>
+            </div>
+            <p> AI-based system for predicting equipment failures using sensor data and machine learning.</p>
+            <div class="project-links">
+              <a href="https://priyamathuriabcai2024-crypto--predictai---ai-predict-app-r1ezgz.streamlit.app/" target="_blank" rel="noopener noreferrer">Live Demo</a>
+              <a href=" https://priyamathuriabcai2024-crypto.github.io/-PredictAI---AI-Predictive-Maintenance-System/" target="_blank" rel="noopener noreferrer">GitHub</a>
+            </div>
+          </div>
+        </div>
+        <div class="project-card reveal" style="transition-delay:.15s;">
+          <div class="card-glow"></div>
+          <div  class="project-image">
+            <img src="images/PowerBI.png" alt="Project">
+          </div>
+            
+          <div class="project-content">
+            <h3>Rajwadi E-Commerce Sales Dashboard</h3>
+            <div class="tech-stack">
+              <span>Power BI</span>
+              <span>Data Analysis</span>
+              <span>Data Visualization</span>
+            </div>
+            <p>Interactive Power BI dashboard for analyzing
+               sales, profit, categories, and payment trends.
+            </p>
+            <div class="project-links">
+              <a href="">Live Demo</a>
+              <a href="">GitHub</a>
+            </div>
+          </div>
+        </div>
+        <div class="project-card reveal" style="transition-delay:.3s;">
+          <div class="card-glow"></div>
+          <div  class="project-image">
+            <img src="images/Portfolio-web.png" alt="Portfolio Website Project">
+          </div>
+
+          <div class="project-content">
+            <h3>Portfolio Website Project</h3>
+            <div class="tech-stack">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>JavaScript</span>
+            </div>
+            <p> Responsive portfolio website showcasing my
+              skills, projects, and AI journey.</p>
+            <div class="project-links">
+              <a href="">Live Demo</a>
+              <a href="">GitHub</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--skills Section -->
+    <section class="skills reveal" id="skills">
+      <h2>My Skills</h2>
+      <div class="skill">
+        <div class="skill-info">
+          <span><i class="fa-brands fa-html5"></i> HTML</span>
+          <span>90%</span>
+        </div>
+        <div class="progress-bar">
+          <div class="progress html" data-width="90%"></div>
+        </div>
+      </div>
+      <div class="skill">
+        <div class="skill-info">
+          <span><i class="fa-brands fa-css3-alt"></i> CSS</span>
+          <span>85%</span>
+        </div>
+        <div class="progress-bar">
+          <div class="progress css" data-width="85%"></div>
+        </div>
+      </div>
+      <div class="skill">
+        <div class="skill-info">
+          <span><i class=" fa-brands fa-java"></i> Java</span>
+          <span>80%</span>
+        </div>
+        <div class="progress-bar">
+          <div class="progress java" data-width="80%"></div>
+        </div>
+      </div>
+      <div class="skill">
+        <div class="skill-info">
+          <span><i class="fa-brands fa-python"></i> Python</span>
+          <span>85%</span>
+        </div>
+        <div class="progress-bar">
+          <div class="progress python" data-width="85%"></div>
+        </div>
+      </div>
+      <div class="skill">
+        <div class="skill-info">
+          <span><i class="fa-solid fa-database"></i> MySQL</span>
+          <span>80%</span>
+        </div>
+        <div class="progress-bar">
+          <div class="progress mysql" data-width="80%"></div>
+        </div>
+      </div>
+    </section>
+    <!--Education Section -->
+    <section class="education reveal" id="education">
+      <h2>Education</h2>
+      <div class="timeline">
+        <div class="timeline-item">
+          <h3><i class="fa-solid fa-graduation-cap"></i> Bachelor of Computer Applications (BCA)</h3>
+          <span>2024 - 2026</span>
+          <p><strong>ICFAI University</strong></p>
+          <p class="education-score">CGPA • <strong>8.80</strong></p>
+        </div>
+          <div class="timeline-item">
+          <h3><i class="fa-solid fa-school"></i> Higher Secondary (12th)</h3>
+          <span>2023</span>
+          <p><strong>Vidhya Sagar School</strong></p>
+          <p class="education-score">RBSE • <strong>78.00%</strong></p>
+        </div>
+        <div class="timeline-item">
+          <h3><i class="fa-solid fa-school"></i> Secondary (10th)</h3>
+          <span>2021</span>
+          <p><strong>Pearl Central Academy</strong></p>
+          <p class="education-score">CBSE • <strong>63.17%</strong></p>
+        </div>
+      </div>
+    </section>
+     <!-- Experience -->
+    <section class="experience reveal" id="experience">
+      <h2>Experience</h2>
+      <div class="experience-container">
+        <div class="experience-card">
+          <div class="experience-icon">
+              <i class="fa-solid fa-robot"></i>
+          </div>
+          <div class="experience-content">
+              <h3>AI Engineer Intern</h3>
+              <h4>CountryEDU</h4>
+              <span>Internship</span>
+              <p>
+                  Worked on AI and machine learning projects,
+                  focusing on intelligent solutions and real-world
+                  problem solving.
+              </p>
+          </div>
+        </div>
+        <div class="experience-card">
+          <div class="experience-icon">
+              <i class="fa-solid fa-chart-column"></i>
+          </div>
+          <div class="experience-content">
+              <h3>Data Analysis Intern</h3>
+              <h4>AI School </h4>
+              <span>Internship</span>
+              <p>
+                Worked on data analysis and visualization using
+                Power BI, creating interactive dashboards and
+                extracting meaningful insights from data.
+              </p>
+            </div>
+          </div>
+        </div>
+    </section>
+   
+    <!--Contact Section -->
+    <section class="contact reveal" id="contact">
+      <h2>Contact Me</h2>
+      <div class="contact-container">
+        <div class="contact-card">
+          <h3><i class="fa-solid fa-envelope"></i> Email</h3>
+          <p>
+            <a href="mailto:priyanshimathuria2263@gmail.com" aria-label="Email">priyanshimathuria2263@gmail.com</a>
+          </p>
+        </div>
+        <div class="contact-card">
+          <h3><i class="fa-brands fa-linkedin"></i> LinkedIn</h3>
+          <p>
+            <a href="https://linkedin.com/in/priyanshi-mathuria-5967a4343" target="_blank" aria-label="LinkedIn">Priyanshi Mathuria</a>
+          </p>
+        </div>
+        <div class="contact-card">
+          <h3><i class="fa-brands fa-github"></i> GitHub</h3>
+          <p>
+            <a href="https://github.com/PriyanshiMathuria" target="_blank" aria-label="GitHub" >PriyanshiMathuria</a>
+          </p>
+        </div>
+      </div>
+    </section>
+
+  </main>
+  <footer>
+    <div class="footer-social">
+      <a href="https://github.com/PriyanshiMathuria" target="_blank" aria-label="GitHub">
+        <i class="fa-brands fa-github"></i>
+      </a>
+      <a href="https://linkedin.com/in/priyanshi-mathuria-5967a4343" target="_blank" aria-label="LinkedIn">
+        <i class="fa-brands fa-linkedin"></i>
+      </a>
+      <a href="mailto:priyanshimathuria2263@gmail.com" aria-label="Email">
+        <i class="fa-solid fa-envelope"></i>
+      </a>
+    </div>
+    <p>© 2026 Priyanshi. All Rights Reserved.</p>
+    <p class="made-with">
+    Made with using HTML, CSS & JavaScript
+    </p>
+  </footer>
+  <button id="topBtn" aria-label="Back to Top">
+    <i class="fa-solid fa-arrow-up"></i>
+  </button>
+  
+  <script src="script.js"></script>
+</body>
+
+</html>
